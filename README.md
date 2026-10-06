@@ -17,7 +17,8 @@ ROS 2を使った自律移動ロボットのプロジェクトです。
 
 **主な技術・テーマ**
 - ROS 2
-- Python / C++
+- Python
+- C++
 - Navigation
 - Perception
 - 自律制御
@@ -46,18 +47,18 @@ ROS 2を中心としたロボティクス開発・実験用ワークスペース
 ### Serpens
 
 蛇型ロボットを対象に、
-機械設計・シミュレーション・制御・実機検証までをつなぐ開発に取り組んでいます。
+機械設計・シミュレーション・制御・実機検証までをつなぐ開発を進めています。
 
 **現在取り組んでいるテーマ**
 - ROS 2
-- MuJoCo
 - CAD / 機械設計
 - ロボットシミュレーション
 - 制御
-- Sim-to-Real
+- 実機との接続
 - AIを使ったロボット操作
+- MuJoCoを用いたシミュレーション環境の構築
 
-※ 公開可能なRepositoryがある場合はここにリンクを追加します。
+※ MuJoCoは現在、AIエージェントを活用しながら検証・導入を進めています。
 
 ---
 
@@ -98,11 +99,11 @@ AIエージェントを使って、
 - ROS 2
 - Python
 - C++
-- MuJoCo
-- Gazebo
 - Linux / Ubuntu
 - Navigation
 - Perception
+- ロボット制御
+- センサ処理
 
 ### CAD / Hardware
 - Fusion 360
@@ -114,12 +115,12 @@ AIエージェントを使って、
 - LLM
 - AI Agents
 - MCP
-- RAG
 - Knowledge Graph
+- Human-in-the-loop
+- Automation
 
 ### Software / Web
 - Git / GitHub
-- Docker
 - TypeScript
 - React
 - JavaScript
@@ -157,14 +158,17 @@ Knowledge**
 
 ---
 
-## 🚀 現在取り組みたいテーマ
+## 🚀 現在取り組んでいる・学んでいるテーマ
 
+- MuJoCo
+- Sim-to-Real
 - 自然言語によるロボット操作
 - Physical AI
 - ヒューマノイドロボット
 - Robot Foundation Models
-- Sim-to-Real
-- 自律実験
+- Vision-Language-Action Models
+- 強化学習
+- 模倣学習
 - AIを活用したロボット設計
 - 長時間自律稼働するAIエージェント
 
