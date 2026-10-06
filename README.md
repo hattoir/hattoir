@@ -100,7 +100,6 @@ AIエージェントを使って、
 - Python
 - C++
 - Linux / Ubuntu
-- Navigation
 - Perception
 - ロボット制御
 - センサ処理
